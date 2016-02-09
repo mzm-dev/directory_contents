@@ -15,7 +15,7 @@ class Dicrectory {
         date_default_timezone_set('Asia/Kuala_Lumpur');
 
         /* default dicrectory */
-        $this->dir = "/Library/WebServer/Documents";
+        $this->dir = "Your_Folder_Path";
 
         $this->generate();
         $this->get_all_dir();
